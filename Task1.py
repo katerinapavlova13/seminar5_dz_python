@@ -5,10 +5,11 @@ path = "text.txt"
 dataTxt = " "
 with open(path, "r", encoding="UTF-8") as file:
     dataTxt = file.read()
-dataTxt = dataTxt.split()
+    dataTxt = dataTxt.split()
+
 print(dataTxt)
 
-findTxt = input("Введите текст для проверки: ")
+findTxt = input("Введите текст для удаления: ")
 
 resultTxt = []
 
