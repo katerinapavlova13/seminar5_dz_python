@@ -14,7 +14,7 @@ def draw_board():
 
 def take_input(playar):
     while True:
-        value = input(f"\n\nХод {'1 игрока' if playar == 'X' else '2 игрока'}: ")
+        value = input(f"\nХод {'1 игрока' if playar == 'X' else '2 игрока'}: ")
         # value = input("Куда поставить " + playar + ' ?')
         if not (value in '1223456789'):
             print("Такой клетки нет на поле. Попробуйте снова.")

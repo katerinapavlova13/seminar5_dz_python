@@ -57,7 +57,7 @@ res_dec = decode_rle(dataTxt2)
 print(res_dec)
 
 with open('Task4_res.txt', 'w') as f:
-    f.write(f'{res_enc}, \n')
-    f.write(res_dec)
+    f.write(res_enc + '\n')
+    f.write(res_dec + '\n')
 
 
